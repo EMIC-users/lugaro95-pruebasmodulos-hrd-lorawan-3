@@ -1,0 +1,173 @@
+
+//-------------- Hardware Config ---------------------
+
+    //------------------- Process EMIC-Generate files result ----------------
+
+// Functions:
+
+
+// Events:
+
+
+    //------------------- APIs -----------------------
+    // LEDs indicadores
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Timer
+
+
+
+
+
+
+
+
+
+
+    // LoRa_WAN - API principal
+
+
+
+
+
+
+
+
+
+// TODO: Implementar configurador moderno para channelLW
+// Este configurador requiere parámetros de entrada libre (Type: int, Ch: string)
+// Los configuradores EMIC:json(type = configurator) actuales solo soportan opciones predefinidas
+// Se necesita una extensión del sistema de configuradores o usar la función directamente
+// La función channelLW() sigue disponible para uso directo desde código
+//
+// Legacy configurator (sintaxis antigua):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//EMIC:setOutput(TARGET:conversionFunctions.c)
+	//EMIC:setInput(src/conversionFunctions.c)
+//EMIC:restoreOutput
+
+//EMIC:define(c_modules.conversionFunctions,conversionFunctions.c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================[end of file]============================================*/
+
+
+/*==================[end of file]============================================*/
+
+    // EMIC Bus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //-------------------- main  -----------------------
+
+
+
+
+
+
+
+
+
+
+
+    //------------------- Copy EMIC-Generate files result ----------------
+
+    //------------------- Set userFncFile.c as a compiler module ----------------
+
+    //------------------- Add all compiler modules to the project ----------------
+
