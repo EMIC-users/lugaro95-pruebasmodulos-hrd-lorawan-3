@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project>
-  <executable name="//root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/dist/default/production/target.production.elf">
+  <executable name="/root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/dist/default/production/target.production.elf">
     <memory name="data">
       <units>bytes</units>
       <length>8192</length>

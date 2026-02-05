@@ -6,7 +6,7 @@ Tool Name:
 Command:
   -p24FJ64GA002 \
   -o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/dist/default/production/target.production.elf \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/dist/default/production/target.production.elf \
   -L/opt/microchip/xc16/v2.10/bin/bin/.. \
   -L/opt/microchip/xc16/v2.10/bin/bin/../../lib \
   -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld \
@@ -16,22 +16,22 @@ Command:
   -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld \
   -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld \
   -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o \
-  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o \
   --defsym=__MPLAB_BUILD=1 \
   --defsym=__MPLAB_DEBUG=0 \
   -Tp24FJ64GA002.gld.00 \
@@ -67,19 +67,19 @@ Archive member included because of file (symbol)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt_start_mode_normal.Meo)
                               (__crt_start_mode_normal)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(delay32.Meo)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o (___delay32)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o (___delay32)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fixunssfsi.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o (___fixunssfsi)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o (___fixunssfsi)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatunsisf.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o (___floatunsisf)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o (___floatunsisf)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(funpack.XX_o)
                               /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fixunssfsi.XX_o) (__funpack)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(udivsi3.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o (___udivsi3)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o (___udivsi3)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(addsf3x.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o (___addsf3)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o (___addsf3)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divsf3x.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o (___divsf3)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o (___divsf3)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dnrmpackfx.XX_o)
                               /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(addsf3x.XX_o) (__dnrmpackf)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(typefx.XX_o)
@@ -97,25 +97,25 @@ Archive member included because of file (symbol)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fpack.XX_o)
                               /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatundisf.XX_o) (__fpack)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__sio_sprintf_dosux.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o (__sprintf_cdnopsuxX)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o (__sprintf_cdnopsuxX)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atof.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_atof)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_atof)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoi.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_atoi)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_atoi)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atol.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_atol)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_atol)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoll.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_atoll)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_atoll)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(memcpy.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o (_memcpy)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o (_memcpy)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(memset.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_memset)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_memset)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(snprintf.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_snprintf)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o (_snprintf)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strcpy.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o (_strcpy)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o (_strcpy)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strstr.XX_o)
-                              //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o (_strstr)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o (_strstr)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
                               /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atof.XX_o) (_strtod)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(vsnprintf.XX_o)
@@ -570,8 +570,8 @@ External Symbols in Program Memory (by address):
                   0x005e80                  _UART1_IN_count
                   0x005e88                  _UART1_OUT_push
                   0x005e96                  _UART1_OUT_count
-                  0x005ea2                  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
-                  0x005ebe                  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
+                  0x005ea2                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
+                  0x005ebe                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
                   0x005eca                  _modeLW
                   0x005efa                  _classLW
                   0x005f2a                  _powerLW
@@ -658,8 +658,8 @@ External Symbols in Program Memory (by address):
 
 External Symbols in Program Memory (by name):
 
-                  0x005ebe                  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
-                  0x005ea2                  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
+                  0x005ebe                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
+                  0x005ea2                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
                   0x006832                  _CollisionReset_I2C1
                   0x0068ea                  _EMICBus_init
                   0x0061ea                  _I2C_Begin_Transmision
@@ -936,22 +936,22 @@ CONFIG1          0x00abfe           0x000002
 
 Linker script and memory map
 
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
-LOAD //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
                     0x0001                  __MPLAB_BUILD = 0x1
                     0x0000                  __MPLAB_DEBUG = 0x0
 LOAD pPIC24Fxxx
@@ -984,12 +984,12 @@ LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libfx-elf.a
  *(.user_init)
  *(.handle)
  *(.isr*)
- .isr.text        0x0002f4         0x28 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
+ .isr.text        0x0002f4         0x28 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
                   0x0002f4                  __T4Interrupt
- .isr.text        0x00031c         0x82 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+ .isr.text        0x00031c         0x82 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
                   0x00031c                  __U1TXInterrupt
                   0x00035e                  __U1RXInterrupt
- .isr.text        0x00039e         0x4c //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
+ .isr.text        0x00039e         0x4c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
                   0x00039e                  __SI2C1Interrupt
                   0x0003c4                  __MI2C1Interrupt
  .isr             0x0003ea          0x4 default_isr
@@ -2175,7 +2175,7 @@ LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a
 LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a
 LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a
 END GROUP
-OUTPUT(//root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/dist/default/production/target.production.elf elf32-pic30)
+OUTPUT(/root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/dist/default/production/target.production.elf elf32-pic30)
 LOAD jump_table
 LOAD default_isr
 LOAD data_init
@@ -2183,37 +2183,37 @@ LOAD data_init
 __c30_signature
                   0x000520        0x264
  __c30_signature
-                  0x000520          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
+                  0x000520          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
  __c30_signature
-                  0x000526          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
+                  0x000526          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
  __c30_signature
-                  0x00052c          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
+                  0x00052c          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
  __c30_signature
-                  0x000532          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
+                  0x000532          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
  __c30_signature
-                  0x000538          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
+                  0x000538          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
  __c30_signature
-                  0x00053e          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
+                  0x00053e          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
  __c30_signature
-                  0x000544          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o
+                  0x000544          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o
  __c30_signature
-                  0x00054a          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+                  0x00054a          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
  __c30_signature
-                  0x000550          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+                  0x000550          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
  __c30_signature
-                  0x000556          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+                  0x000556          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
  __c30_signature
-                  0x00055c          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o
+                  0x00055c          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o
  __c30_signature
-                  0x000562          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
+                  0x000562          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
  __c30_signature
-                  0x000568          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+                  0x000568          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
  __c30_signature
-                  0x00056e          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o
+                  0x00056e          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o
  __c30_signature
-                  0x000574          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
+                  0x000574          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
  __c30_signature
-                  0x00057a          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
+                  0x00057a          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
  __c30_signature
                   0x000580          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt0_standard.o)
  __c30_signature
@@ -2390,7 +2390,7 @@ __c30_signature
 __xc_reference_data
 
 .nbss               0x0800         0x46
- .nbss              0x0800         0x1e //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+ .nbss              0x0800         0x1e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
                     0x0800                  _PAYLOAD_LENGHT_MSG
                     0x0802                  _lorawan_receive_payload
                     0x0804                  _lw_error
@@ -2400,34 +2400,34 @@ __xc_reference_data
                     0x080e                  _lw_poll_timeout
                     0x0812                  _lw_timeout
                     0x0813                  _join_in_progress
- .nbss              0x081e          0xa //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
- .nbss              0x0828          0xa //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
- .nbss              0x0832          0xa //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
- .nbss              0x083c          0xa //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
+ .nbss              0x081e          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
+ .nbss              0x0828          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
+ .nbss              0x0832          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
+ .nbss              0x083c          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
 
 .ndata              0x0846          0x6
- .ndata             0x0846          0x6 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+ .ndata             0x0846          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
                     0x0846                  _lw_state
                     0x0848                  _lw_forceState
                     0x084a                  _lw_wait_UART_response
 
 .nbss               0x084c         0x10
- .nbss              0x084c          0x4 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
- .nbss              0x0850          0x4 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+ .nbss              0x084c          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
+ .nbss              0x0850          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
                     0x0852                  _lorawan_connection_state
                     0x0853                  _event_connected_flag
- .nbss              0x0854          0x4 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+ .nbss              0x0854          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
                     0x0854                  _i2crfi_estado
                     0x0855                  _i2crfi_estado_rcv
                     0x0856                  _i2crfi_indice
                     0x0857                  _stopflag
- .nbss              0x0858          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
- .nbss              0x085a          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+ .nbss              0x0858          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
+ .nbss              0x085a          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
                     0x085a                  _UART1_flowControlVar
                     0x085b                  _UART1_inverted
 
 .ndata              0x085c          0x2
- .ndata             0x085c          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+ .ndata             0x085c          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
                     0x085c                  _I2C_ID
 
 .nbss               0x085e          0x2
@@ -2435,11 +2435,11 @@ __xc_reference_data
                     0x085e                  _errno
 
 .bss                0x0860        0xe74
- .bss               0x0860        0x80c //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+ .bss               0x0860        0x80c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
                     0x0860                  _UART1_IN_fifo
                     0x0c66                  _UART1_OUT_fifo
- .bss               0x106c        0x440 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
- .bss               0x14ac        0x228 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+ .bss               0x106c        0x440 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+ .bss               0x14ac        0x228 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
                     0x14ac                  _command
                     0x14ec                  _payload
                     0x151e                  _devADDR
@@ -2449,7 +2449,7 @@ __xc_reference_data
                     0x1654                  _lw_dataOutBuffer
 
 .data               0x16d4        0x114
- .data              0x16d4        0x114 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+ .data              0x16d4        0x114 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
                     0x16d4                  _devEUI
                     0x16e5                  _appEUI
                     0x1725                  _appKey
@@ -2459,10 +2459,10 @@ __xc_reference_data
                     0x17cc                  _drScheme
 
 .bss                0x17e8         0x80
- .bss               0x17e8         0x80 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+ .bss               0x17e8         0x80 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
 
 .data               0x1868         0xac
- .data              0x1868         0x38 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+ .data              0x1868         0x38 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
                     0x1868                  _i2c1InStream
                     0x1884                  _i2c1OutStream
  .data              0x18a0         0x36 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
@@ -2481,48 +2481,48 @@ __xc_reference_data
 .ivt._T4Interrupt
                   0x00004a          0x2
  .ivt._T4Interrupt
-                  0x00004a          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
+                  0x00004a          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
 
 .ivt._U1TXInterrupt
                   0x00002c          0x2
  .ivt._U1TXInterrupt
-                  0x00002c          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+                  0x00002c          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
 
 .ivt._U1RXInterrupt
                   0x00002a          0x2
  .ivt._U1RXInterrupt
-                  0x00002a          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+                  0x00002a          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
 
 .ivt._SI2C1Interrupt
                   0x000034          0x2
  .ivt._SI2C1Interrupt
-                  0x000034          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
+                  0x000034          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
 
 .ivt._MI2C1Interrupt
                   0x000036          0x2
  .ivt._MI2C1Interrupt
-                  0x000036          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
+                  0x000036          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
 
 .config_JTAGEN    0x00abfe          0x2
  .config_JTAGEN
-                  0x00abfe          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
+                  0x00abfe          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
 
 .config_IESO      0x00abfc          0x2
- .config_IESO     0x00abfc          0x2 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
+ .config_IESO     0x00abfc          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
 
 .const              0xcad4        0x2b6 load address 0x004ad4  
- .const             0xcad4        0x290 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
- .const             0xcd64         0x12 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
- .const             0xcd76          0x8 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+ .const             0xcad4        0x290 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+ .const             0xcd64         0x12 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
+ .const             0xcd76          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
                     0xcd76                  _streamIn_Uart1
                     0xcd7a                  _streamOut_Uart1
- .const             0xcd7e          0x8 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+ .const             0xcd7e          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
                     0xcd7e                  _streamIn_I2C
                     0xcd82                  _streamOut_I2C
- .const             0xcd86          0x4 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+ .const             0xcd86          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
 
 .text             0x004d8a       0x16e4
- .text            0x004d8a        0x864 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+ .text            0x004d8a        0x864 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
                   0x004d8a                  _default_Config
                   0x004db2                  _loraE5_init
                   0x004dca                  _loraE5_start
@@ -2535,7 +2535,7 @@ __xc_reference_data
                   0x0052de                  _loraE5_awake
                   0x0052f2                  _Poll_loraE5
                   0x0055e0                  _ISR_UART1_CALLBACK
- .text            0x0055ee        0x598 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o
+ .text            0x0055ee        0x598 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o
                   0x0055ee                  _streamIn_t_ptr_to_float
                   0x00562a                  _streamIn_t_ptr_to_char
                   0x005664                  _streamIn_t_ptr_to_uint8_t
@@ -2548,7 +2548,7 @@ __xc_reference_data
                   0x00580c                  _streamIn_t_ptr_to_int64_t
                   0x005848                  _streamIn_t_ptr_to_ascii
                   0x005888                  _sendDataToStream
- .text            0x005b86        0x31c //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+ .text            0x005b86        0x31c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
                   0x005b86                  _UART1_init_fifo
                   0x005bac                  _UART1_is_empty
                   0x005bc4                  _UART1_is_full
@@ -2567,9 +2567,9 @@ __xc_reference_data
                   0x005e80                  _UART1_IN_count
                   0x005e88                  _UART1_OUT_push
                   0x005e96                  _UART1_OUT_count
- .text            0x005ea2        0x30c //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
-                  0x005ea2                  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
-                  0x005ebe                  //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
+ .text            0x005ea2        0x30c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+                  0x005ea2                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
+                  0x005ebe                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
                   0x005eca                  _modeLW
                   0x005efa                  _classLW
                   0x005f2a                  _powerLW
@@ -2586,7 +2586,7 @@ __xc_reference_data
                   0x006132                  _awakeLW
                   0x00613a                  _beaconLW
                   0x006176                  _Poll_LoRaWAN
- .text            0x0061ae        0x2c0 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+ .text            0x0061ae        0x2c0 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
                   0x0061ae                  _Init_I2C_Driver
                   0x0061ba                  _getAvailable_out_count
                   0x0061ce                  _countI2cStreamIn
@@ -2611,7 +2611,7 @@ __xc_reference_data
  .dinit           0x00646e        0x1cc data_init
 
 .text             0x00663a        0x67a
- .text            0x00663a        0x190 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o
+ .text            0x00663a        0x190 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o
                   0x00663a                  _streamPushCtr
                   0x006688                  _streamPush
                   0x0066c2                  _streamPop
@@ -2619,7 +2619,7 @@ __xc_reference_data
                   0x00673c                  _streamOpenReadFrame
                   0x006788                  _streamReOpenReadFrame
                   0x0067a0                  _streamCloseReadFrame
- .text            0x0067ca        0x104 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
+ .text            0x0067ca        0x104 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
                   0x0067ca                  _Init_Master_I2C1
                   0x006832                  _CollisionReset_I2C1
                   0x00683a                  _OverflowReset_I2C1
@@ -2633,37 +2633,37 @@ __xc_reference_data
                   0x00689c                  _Stop_I2C1
                   0x0068ae                  _Write_I2C1
                   0x0068ba                  _Read_I2C1
- .text            0x0068ce        0x100 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o
+ .text            0x0068ce        0x100 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o
                   0x0068ce                  _pI2C
                   0x0068ea                  _EMICBus_init
                   0x0068f8                  _poll_EMICBus
- .text            0x0069ce         0xb4 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
+ .text            0x0069ce         0xb4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
                   0x0069ce                  _LEDs_Led3_init
                   0x0069d6                  _LEDs_Led3_state
                   0x006a04                  _LEDs_Led3_blink
                   0x006a24                  _LEDs_Led3_poll
- .text            0x006a82         0x86 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
+ .text            0x006a82         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
                   0x006a82                  _LEDs_Led1_init
                   0x006a8a                  _LEDs_Led1_blink
                   0x006aaa                  _LEDs_Led1_poll
- .text            0x006b08         0x86 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
+ .text            0x006b08         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
                   0x006b08                  _LEDs_Led2_init
                   0x006b10                  _LEDs_Led2_blink
                   0x006b30                  _LEDs_Led2_poll
- .text            0x006b8e         0x78 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
+ .text            0x006b8e         0x78 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
                   0x006b8e                  _onReset
                   0x006bb4                  _eLWcon
                   0x006bbe                  _eLoRaWANdis
                   0x006bc8                  _eI2C
                   0x006be8                  _eLoRaWAN
                   0x006bfe                  _etOut1
- .text            0x006c06         0x5a //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
+ .text            0x006c06         0x5a /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
                   0x006c06                  _setTime1
                   0x006c22                  _timer1_Poll
- .text            0x006c60         0x2e //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
+ .text            0x006c60         0x2e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
                   0x006c60                  _initSystem
                   0x006c6e                  _main
- .text            0x006c8e         0x26 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
+ .text            0x006c8e         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
                   0x006c8e                  _getSystemMilis
                   0x006c98                  _callback
                   0x006caa                  _systemTimeInit
@@ -2673,5 +2673,5 @@ __xc_reference_data
                   0x006cb4                  ___delay32
 
 .text             0x006cd0         0x16
- .text            0x006cd0         0x16 //root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
+ .text            0x006cd0         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
                   0x006cd0                  _timer4_init
