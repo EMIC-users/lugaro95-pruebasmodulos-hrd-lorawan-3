@@ -50,7 +50,6 @@ static const streamOut_t streamOut_LoRaWAN_buffer = {
 
 const streamIn_t streamIn_LoRaWAN = {
     lw_payload_pop,
-    lw_payload_is_empty,
     lw_payload_count
 };
 
