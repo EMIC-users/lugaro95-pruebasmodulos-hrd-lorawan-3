@@ -54,7 +54,7 @@ uint32_t lw_sendTimeStamp;
 uint32_t lw_poll_timeout = 0;
 uint8_t	lw_timeout = 0;
 uint8_t join_in_progress = 0;
-
+uint8_t join_failed = 0;   // ⬅ NUEVO
 
 void default_Config(void)
 {
@@ -393,13 +393,13 @@ void loraE5_updateState(char * answer)
                 lw_wait_UART_response = 0;
             }
             else if(strstr(answer,"Start")!=NULL)
-{
-    join_in_progress = 1;
-}
-else if(strstr(answer,"NORMAL")!=NULL)
-{
-    // seguir esperando, NO liberar nada
-}
+            {
+                join_in_progress = 1;
+            }
+            else if(strstr(answer,"NORMAL")!=NULL)
+            {
+                // seguir esperando, NO liberar nada
+            }
             else if(strstr(answer,"Network joined")!=NULL)
             {
                 lw_error = STATUS_BUSY;
@@ -408,19 +408,28 @@ else if(strstr(answer,"NORMAL")!=NULL)
             {
                 lw_error = STATUS_BUSY;
             }
-else if(strstr(answer,"Join failed")!=NULL)
-{
-    join_in_progress = 0;
-    lw_error = STATUS_NO_NETWORK_JOINED;
-    lw_wait_UART_response = 0;
-}
-else if(strstr(answer,"Done")!=NULL)
-{
-    join_in_progress = 0;
-    lw_wait_UART_response = 0;
-    lorawan_connection_state = 1;
-    lw_state = LW_CONNECTED;
-}
+            else if(strstr(answer,"Join failed")!=NULL)
+            {
+                join_failed = 1;                  // ⬅ SOLO marcar
+                lw_error = STATUS_NO_NETWORK_JOINED;
+                // NO cambiar estado
+            }
+            else if(strstr(answer,"Done")!=NULL && join_in_progress)
+            {
+                join_in_progress = 0;
+                lw_wait_UART_response = 0;
+            
+                if (join_failed)
+                {
+                    lorawan_connection_state = 0;
+                    lw_state = LW_OTAA_CONNECT;            // o LW_IDLE si no querés retry
+                }
+                else
+                {
+                    lorawan_connection_state = 1;
+                    lw_state = LW_CONNECTED;
+                }
+            }
             break;
 
         case LW_ABP_CONNECT:
@@ -644,10 +653,11 @@ uint8_t Poll_loraE5(void)
                             break;
 
                         case 3:
-                            sendCommand("AT+JOIN\r\n",60000);   // ⬅ timeout largo
-                            join_in_progress = 1;
-                            section = 0;
-                            break;
+                                join_in_progress = 1;
+                                join_failed = 0;          // ⬅ reset explícito
+                                sendCommand("AT+JOIN\r\n",60000);
+                                section = 0;
+                                break;
                         default:
                             break;
                     }
