@@ -45,9 +45,9 @@ void etOut1()
 }
 
 
-void eLoRaWAN(streamIn_t* stream)
+void eLoRaWAN(const streamIn_t* const msg)
 {
-    pI2C("TAG\t%d", stream);
+    pI2C("TAG\t$r", msg);
     LEDs_Led2_blink(125, 250, 1);
 }
 
