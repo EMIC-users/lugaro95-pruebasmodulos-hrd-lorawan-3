@@ -266,31 +266,31 @@ section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200              0x48dc          0x6d4a  (27978)
 .const                      0x4adc               0x2b6           0x411  (1041)
-.text                       0x4d92              0x1736          0x22d1  (8913)
-.dinit                      0x64c8               0x1cc           0x2b2  (690)
-.text                       0x6694               0x67e           0x9bd  (2493)
-.init.delay32               0x6d12                0x1c            0x2a  (42)
-.text                       0x6d2e                0x16            0x21  (33)
+.text                       0x4d92              0x1750          0x22f8  (8952)
+.dinit                      0x64e2               0x1cc           0x2b2  (690)
+.text                       0x66ae               0x67e           0x9bd  (2493)
+.init.delay32               0x6d2c                0x1c            0x2a  (42)
+.text                       0x6d48                0x16            0x21  (33)
 
-                 Total "program" memory used (bytes):         0xa0e6  (41190) 63%
+                 Total "program" memory used (bytes):         0xa10d  (41229) 63%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x2000]
 
 section                    address      alignment gaps    total length  (dec)
 -------                    -------      --------------    -------------------
-.nbss                        0x800                   0            0x48  (72)
-.ndata                       0x848                   0             0x6  (6)
-.nbss                        0x84e                   0            0x10  (16)
-.ndata                       0x85e                   0             0x2  (2)
-.nbss                        0x860                   0             0x2  (2)
-.bss                         0x862                   0           0xe74  (3700)
-.data                       0x16d6                   0           0x114  (276)
-.bss                        0x17ea                   0            0x80  (128)
-.data                       0x186a                   0            0xac  (172)
-.bss                        0x1916                   0             0x4  (4)
+.nbss                        0x800                   0            0x4a  (74)
+.ndata                       0x84a                   0             0x6  (6)
+.nbss                        0x850                   0            0x10  (16)
+.ndata                       0x860                   0             0x2  (2)
+.nbss                        0x862                   0             0x2  (2)
+.bss                         0x864                   0           0xe74  (3700)
+.data                       0x16d8                   0           0x114  (276)
+.bss                        0x17ec                   0            0x80  (128)
+.data                       0x186c                   0            0xac  (172)
+.bss                        0x1918                   0             0x4  (4)
 
-                 Total "data" memory used (bytes):         0x111a  (4378) 53%
+                 Total "data" memory used (bytes):         0x111c  (4380) 53%
 
 
 Dynamic Memory Usage
@@ -298,9 +298,9 @@ Dynamic Memory Usage
 region                     address                      maximum length  (dec)
 ------                     -------                      ---------------------
 heap                             0                                   0  (0)
-stack                       0x191a                               0xee6  (3814)
+stack                       0x191c                               0xee4  (3812)
 
-                 Maximum dynamic memory (bytes):          0xee6  (3814)
+                 Maximum dynamic memory (bytes):          0xee4  (3812)
 
 Info: Project is using a large data memory model when small data memory model is sufficient.
 
@@ -316,80 +316,82 @@ External Symbols in Data Memory (by address):
                     0x0810                  _lw_poll_timeout
                     0x0814                  _lw_timeout
                     0x0815                  _join_in_progress
-                    0x0848                  _lw_state
-                    0x084a                  _lw_forceState
-                    0x084c                  _lw_wait_UART_response
-                    0x0854                  _lorawan_connection_state
-                    0x0855                  _event_connected_flag
-                    0x0856                  _i2crfi_estado
-                    0x0857                  _i2crfi_estado_rcv
-                    0x0858                  _i2crfi_indice
-                    0x0859                  _stopflag
-                    0x085c                  _UART1_flowControlVar
-                    0x085d                  _UART1_inverted
-                    0x085e                  _I2C_ID
-                    0x0862                  _UART1_IN_fifo
-                    0x0c68                  _UART1_OUT_fifo
-                    0x14ae                  _command
-                    0x14ee                  _payload
-                    0x1520                  _devADDR
-                    0x1540                  _appsKey
-                    0x15c0                  _nwsKey
-                    0x1640                  _lwConfig
-                    0x1656                  _lw_dataOutBuffer
-                    0x16d6                  _devEUI
-                    0x16e7                  _appEUI
-                    0x1727                  _appKey
-                    0x17a8                  _modeType
-                    0x17ae                  _classType
-                    0x17b4                  _bandPlan
-                    0x17ce                  _drScheme
-                    0x186a                  _i2c1InStream
-                    0x1886                  _i2c1OutStream
-                    0x1916                  ___errno_val
+                    0x0816                  _join_failed
+                    0x084a                  _lw_state
+                    0x084c                  _lw_forceState
+                    0x084e                  _lw_wait_UART_response
+                    0x0856                  _lorawan_connection_state
+                    0x0857                  _event_connected_flag
+                    0x0858                  _i2crfi_estado
+                    0x0859                  _i2crfi_estado_rcv
+                    0x085a                  _i2crfi_indice
+                    0x085b                  _stopflag
+                    0x085e                  _UART1_flowControlVar
+                    0x085f                  _UART1_inverted
+                    0x0860                  _I2C_ID
+                    0x0864                  _UART1_IN_fifo
+                    0x0c6a                  _UART1_OUT_fifo
+                    0x14b0                  _command
+                    0x14f0                  _payload
+                    0x1522                  _devADDR
+                    0x1542                  _appsKey
+                    0x15c2                  _nwsKey
+                    0x1642                  _lwConfig
+                    0x1658                  _lw_dataOutBuffer
+                    0x16d8                  _devEUI
+                    0x16e9                  _appEUI
+                    0x1729                  _appKey
+                    0x17aa                  _modeType
+                    0x17b0                  _classType
+                    0x17b6                  _bandPlan
+                    0x17d0                  _drScheme
+                    0x186c                  _i2c1InStream
+                    0x1888                  _i2c1OutStream
+                    0x1918                  ___errno_val
 
 External Symbols in Data Memory (by name):
 
-                    0x085e                  _I2C_ID
+                    0x0860                  _I2C_ID
                     0x0800                  _PAYLOAD_LENGHT_MSG
-                    0x0862                  _UART1_IN_fifo
-                    0x0c68                  _UART1_OUT_fifo
-                    0x085c                  _UART1_flowControlVar
-                    0x085d                  _UART1_inverted
-                    0x1916                  ___errno_val
-                    0x16e7                  _appEUI
-                    0x1727                  _appKey
-                    0x1540                  _appsKey
-                    0x17b4                  _bandPlan
-                    0x17ae                  _classType
-                    0x14ae                  _command
-                    0x1520                  _devADDR
-                    0x16d6                  _devEUI
-                    0x17ce                  _drScheme
-                    0x0855                  _event_connected_flag
-                    0x186a                  _i2c1InStream
-                    0x1886                  _i2c1OutStream
-                    0x0856                  _i2crfi_estado
-                    0x0857                  _i2crfi_estado_rcv
-                    0x0858                  _i2crfi_indice
+                    0x0864                  _UART1_IN_fifo
+                    0x0c6a                  _UART1_OUT_fifo
+                    0x085e                  _UART1_flowControlVar
+                    0x085f                  _UART1_inverted
+                    0x1918                  ___errno_val
+                    0x16e9                  _appEUI
+                    0x1729                  _appKey
+                    0x1542                  _appsKey
+                    0x17b6                  _bandPlan
+                    0x17b0                  _classType
+                    0x14b0                  _command
+                    0x1522                  _devADDR
+                    0x16d8                  _devEUI
+                    0x17d0                  _drScheme
+                    0x0857                  _event_connected_flag
+                    0x186c                  _i2c1InStream
+                    0x1888                  _i2c1OutStream
+                    0x0858                  _i2crfi_estado
+                    0x0859                  _i2crfi_estado_rcv
+                    0x085a                  _i2crfi_indice
+                    0x0816                  _join_failed
                     0x0815                  _join_in_progress
-                    0x0854                  _lorawan_connection_state
+                    0x0856                  _lorawan_connection_state
                     0x0804                  _lorawan_receive_payload
-                    0x1640                  _lwConfig
-                    0x1656                  _lw_dataOutBuffer
+                    0x1642                  _lwConfig
+                    0x1658                  _lw_dataOutBuffer
                     0x080a                  _lw_dataOutLen
                     0x0806                  _lw_error
-                    0x084a                  _lw_forceState
+                    0x084c                  _lw_forceState
                     0x0810                  _lw_poll_timeout
                     0x080c                  _lw_sendTimeStamp
-                    0x0848                  _lw_state
+                    0x084a                  _lw_state
                     0x0814                  _lw_timeout
-                    0x084c                  _lw_wait_UART_response
-                    0x17a8                  _modeType
-                    0x15c0                  _nwsKey
-                    0x14ee                  _payload
+                    0x084e                  _lw_wait_UART_response
+                    0x17aa                  _modeType
+                    0x15c2                  _nwsKey
+                    0x14f0                  _payload
                     0x0808                  _stateClassB
-                    0x0859                  _stopflag
+                    0x085b                  _stopflag
 
 External Symbols in Program Memory (by address):
 
@@ -541,180 +543,180 @@ External Symbols in Program Memory (by address):
                   0x004e8e                  _sendCommand
                   0x004ec2                  _loraE5_checkAnswer
                   0x004fcc                  _loraE5_updateState
-                  0x00532a                  _loraE5_lowPower
-                  0x005334                  _loraE5_awake
-                  0x005348                  _Poll_loraE5
-                  0x005636                  _ISR_UART1_CALLBACK
-                  0x005644                  _streamIn_t_ptr_to_float
-                  0x005680                  _streamIn_t_ptr_to_char
-                  0x0056ba                  _streamIn_t_ptr_to_uint8_t
-                  0x0056f8                  _streamIn_t_ptr_to_uint16_t
-                  0x005734                  _streamIn_t_ptr_to_uint32_t
-                  0x005770                  _streamIn_t_ptr_to_uint64
-                  0x0057ac                  _streamIn_t_ptr_to_int8_t
-                  0x0057ea                  _streamIn_t_ptr_to_int16_t
-                  0x005826                  _streamIn_t_ptr_to_int32_t
-                  0x005862                  _streamIn_t_ptr_to_int64_t
-                  0x00589e                  _streamIn_t_ptr_to_ascii
-                  0x0058de                  _sendDataToStream
-                  0x005bdc                  _UART1_init_fifo
-                  0x005c02                  _UART1_is_empty
-                  0x005c1a                  _UART1_is_full
-                  0x005c38                  _UART1_count
-                  0x005c48                  _UART1_push
-                  0x005cbe                  _UART1_pop
-                  0x005d08                  _UART1_peek
-                  0x005d2e                  _UART1_simplexMode
-                  0x005d3a                  _UART1_flowControl
-                  0x005d5e                  _UART1_invert
-                  0x005d90                  _UART1_bd
-                  0x005e4c                  _UART1_init
-                  0x005ea8                  _UART1_OFF
-                  0x005eb6                  _UART1_ON
-                  0x005ecc                  _UART1_IN_pop
-                  0x005ed6                  _UART1_IN_count
-                  0x005ede                  _UART1_OUT_push
-                  0x005eec                  _UART1_OUT_count
-                  0x005ef8                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
-                  0x005f14                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
-                  0x005f20                  _modeLW
-                  0x005f50                  _classLW
-                  0x005f80                  _powerLW
-                  0x005f90                  _bandLW
-                  0x006006                  _schemeLW
-                  0x006094                  _channelLW
-                  0x0060c2                  _readCredLW
-                  0x0060ec                  _LoRaWAN_init
-                  0x0060f4                  _connLW
-                  0x0060fe                  _pLoRaWAN
-                  0x006122                  _hex_to_int
-                  0x006164                  _hex_to_ascii
-                  0x006180                  _sleepLW
-                  0x006188                  _awakeLW
-                  0x006190                  _beaconLW
-                  0x0061cc                  _Poll_LoRaWAN
-                  0x006208                  _Init_I2C_Driver
-                  0x006214                  _getAvailable_out_count
-                  0x006228                  _countI2cStreamIn
-                  0x006230                  _getI2cStreamIn
-                  0x006238                  _setI2cStreamOut
-                  0x006244                  _I2C_Begin_Transmision
-                  0x00625e                  _ini_I2C_IN
-                  0x006288                  _ini_I2C_OUT
-                  0x0062b2                  _ini_I2C_OUT_FM
-                  0x0062bc                  _reset_I2C_FRAME
-                  0x0062ca                  _push_I2C_IN
-                  0x006302                  _push_I2C_OUT
-                  0x006332                  _pop_I2C_IN
-                  0x006356                  _pop_I2C_OUT
-                  0x00637a                  _pop_I2C_OUT_FM
-                  0x00638a                  _i2cCloseWriteFrame
-                  0x0063cc                  _i2cOpenReadFrame
-                  0x006418                  _I2c_driver_callback_slave
-                  0x006458                  _I2c_driver_callback_master
-                  0x006694                  _streamPushCtr
-                  0x0066e2                  _streamPush
-                  0x00671c                  _streamPop
-                  0x006754                  _streamOpenWriteFrame
-                  0x006796                  _streamOpenReadFrame
-                  0x0067e2                  _streamReOpenReadFrame
-                  0x0067fa                  _streamCloseReadFrame
-                  0x006824                  _Init_Master_I2C1
-                  0x00688c                  _CollisionReset_I2C1
-                  0x006894                  _OverflowReset_I2C1
-                  0x00689c                  _IsStartI2c1
-                  0x0068a8                  _IsCollisionDetectI2c1
-                  0x0068b4                  _IsStopI2c1
-                  0x0068c0                  _IsReceiveBufferFullI2c1
-                  0x0068cc                  _IsDataOrAddressI2c1
-                  0x0068d8                  _IsReceiveOverflowI2c1
-                  0x0068e4                  _Start_I2C1
-                  0x0068f6                  _Stop_I2C1
-                  0x006908                  _Write_I2C1
-                  0x006914                  _Read_I2C1
-                  0x006928                  _pI2C
-                  0x006944                  _EMICBus_init
-                  0x006952                  _poll_EMICBus
-                  0x006a28                  _LEDs_Led3_init
-                  0x006a30                  _LEDs_Led3_state
-                  0x006a5e                  _LEDs_Led3_blink
-                  0x006a7e                  _LEDs_Led3_poll
-                  0x006adc                  _LEDs_Led1_init
-                  0x006ae4                  _LEDs_Led1_blink
-                  0x006b04                  _LEDs_Led1_poll
-                  0x006b62                  _LEDs_Led2_init
-                  0x006b6a                  _LEDs_Led2_blink
-                  0x006b8a                  _LEDs_Led2_poll
-                  0x006be8                  _onReset
-                  0x006c0e                  _eLWcon
-                  0x006c18                  _eLoRaWANdis
-                  0x006c22                  _eI2C
-                  0x006c42                  _etOut1
-                  0x006c4a                  _eLoRaWAN
-                  0x006c64                  _setTime1
-                  0x006c80                  _timer1_Poll
-                  0x006cbe                  _initSystem
-                  0x006ccc                  _main
-                  0x006cec                  _getSystemMilis
-                  0x006cf6                  _callback
-                  0x006d08                  _systemTimeInit
-                  0x006d12                  ___delay32
-                  0x006d2e                  _timer4_init
+                  0x005342                  _loraE5_lowPower
+                  0x00534c                  _loraE5_awake
+                  0x005360                  _Poll_loraE5
+                  0x005650                  _ISR_UART1_CALLBACK
+                  0x00565e                  _streamIn_t_ptr_to_float
+                  0x00569a                  _streamIn_t_ptr_to_char
+                  0x0056d4                  _streamIn_t_ptr_to_uint8_t
+                  0x005712                  _streamIn_t_ptr_to_uint16_t
+                  0x00574e                  _streamIn_t_ptr_to_uint32_t
+                  0x00578a                  _streamIn_t_ptr_to_uint64
+                  0x0057c6                  _streamIn_t_ptr_to_int8_t
+                  0x005804                  _streamIn_t_ptr_to_int16_t
+                  0x005840                  _streamIn_t_ptr_to_int32_t
+                  0x00587c                  _streamIn_t_ptr_to_int64_t
+                  0x0058b8                  _streamIn_t_ptr_to_ascii
+                  0x0058f8                  _sendDataToStream
+                  0x005bf6                  _UART1_init_fifo
+                  0x005c1c                  _UART1_is_empty
+                  0x005c34                  _UART1_is_full
+                  0x005c52                  _UART1_count
+                  0x005c62                  _UART1_push
+                  0x005cd8                  _UART1_pop
+                  0x005d22                  _UART1_peek
+                  0x005d48                  _UART1_simplexMode
+                  0x005d54                  _UART1_flowControl
+                  0x005d78                  _UART1_invert
+                  0x005daa                  _UART1_bd
+                  0x005e66                  _UART1_init
+                  0x005ec2                  _UART1_OFF
+                  0x005ed0                  _UART1_ON
+                  0x005ee6                  _UART1_IN_pop
+                  0x005ef0                  _UART1_IN_count
+                  0x005ef8                  _UART1_OUT_push
+                  0x005f06                  _UART1_OUT_count
+                  0x005f12                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
+                  0x005f2e                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
+                  0x005f3a                  _modeLW
+                  0x005f6a                  _classLW
+                  0x005f9a                  _powerLW
+                  0x005faa                  _bandLW
+                  0x006020                  _schemeLW
+                  0x0060ae                  _channelLW
+                  0x0060dc                  _readCredLW
+                  0x006106                  _LoRaWAN_init
+                  0x00610e                  _connLW
+                  0x006118                  _pLoRaWAN
+                  0x00613c                  _hex_to_int
+                  0x00617e                  _hex_to_ascii
+                  0x00619a                  _sleepLW
+                  0x0061a2                  _awakeLW
+                  0x0061aa                  _beaconLW
+                  0x0061e6                  _Poll_LoRaWAN
+                  0x006222                  _Init_I2C_Driver
+                  0x00622e                  _getAvailable_out_count
+                  0x006242                  _countI2cStreamIn
+                  0x00624a                  _getI2cStreamIn
+                  0x006252                  _setI2cStreamOut
+                  0x00625e                  _I2C_Begin_Transmision
+                  0x006278                  _ini_I2C_IN
+                  0x0062a2                  _ini_I2C_OUT
+                  0x0062cc                  _ini_I2C_OUT_FM
+                  0x0062d6                  _reset_I2C_FRAME
+                  0x0062e4                  _push_I2C_IN
+                  0x00631c                  _push_I2C_OUT
+                  0x00634c                  _pop_I2C_IN
+                  0x006370                  _pop_I2C_OUT
+                  0x006394                  _pop_I2C_OUT_FM
+                  0x0063a4                  _i2cCloseWriteFrame
+                  0x0063e6                  _i2cOpenReadFrame
+                  0x006432                  _I2c_driver_callback_slave
+                  0x006472                  _I2c_driver_callback_master
+                  0x0066ae                  _streamPushCtr
+                  0x0066fc                  _streamPush
+                  0x006736                  _streamPop
+                  0x00676e                  _streamOpenWriteFrame
+                  0x0067b0                  _streamOpenReadFrame
+                  0x0067fc                  _streamReOpenReadFrame
+                  0x006814                  _streamCloseReadFrame
+                  0x00683e                  _Init_Master_I2C1
+                  0x0068a6                  _CollisionReset_I2C1
+                  0x0068ae                  _OverflowReset_I2C1
+                  0x0068b6                  _IsStartI2c1
+                  0x0068c2                  _IsCollisionDetectI2c1
+                  0x0068ce                  _IsStopI2c1
+                  0x0068da                  _IsReceiveBufferFullI2c1
+                  0x0068e6                  _IsDataOrAddressI2c1
+                  0x0068f2                  _IsReceiveOverflowI2c1
+                  0x0068fe                  _Start_I2C1
+                  0x006910                  _Stop_I2C1
+                  0x006922                  _Write_I2C1
+                  0x00692e                  _Read_I2C1
+                  0x006942                  _pI2C
+                  0x00695e                  _EMICBus_init
+                  0x00696c                  _poll_EMICBus
+                  0x006a42                  _LEDs_Led3_init
+                  0x006a4a                  _LEDs_Led3_state
+                  0x006a78                  _LEDs_Led3_blink
+                  0x006a98                  _LEDs_Led3_poll
+                  0x006af6                  _LEDs_Led1_init
+                  0x006afe                  _LEDs_Led1_blink
+                  0x006b1e                  _LEDs_Led1_poll
+                  0x006b7c                  _LEDs_Led2_init
+                  0x006b84                  _LEDs_Led2_blink
+                  0x006ba4                  _LEDs_Led2_poll
+                  0x006c02                  _onReset
+                  0x006c28                  _eLWcon
+                  0x006c32                  _eLoRaWANdis
+                  0x006c3c                  _eI2C
+                  0x006c5c                  _etOut1
+                  0x006c64                  _eLoRaWAN
+                  0x006c7e                  _setTime1
+                  0x006c9a                  _timer1_Poll
+                  0x006cd8                  _initSystem
+                  0x006ce6                  _main
+                  0x006d06                  _getSystemMilis
+                  0x006d10                  _callback
+                  0x006d22                  _systemTimeInit
+                  0x006d2c                  ___delay32
+                  0x006d48                  _timer4_init
 
 External Symbols in Program Memory (by name):
 
-                  0x005f14                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
-                  0x005ef8                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
-                  0x00688c                  _CollisionReset_I2C1
-                  0x006944                  _EMICBus_init
-                  0x006244                  _I2C_Begin_Transmision
-                  0x006458                  _I2c_driver_callback_master
-                  0x006418                  _I2c_driver_callback_slave
-                  0x005636                  _ISR_UART1_CALLBACK
-                  0x006208                  _Init_I2C_Driver
-                  0x006824                  _Init_Master_I2C1
-                  0x0068a8                  _IsCollisionDetectI2c1
-                  0x0068cc                  _IsDataOrAddressI2c1
-                  0x0068c0                  _IsReceiveBufferFullI2c1
-                  0x0068d8                  _IsReceiveOverflowI2c1
-                  0x00689c                  _IsStartI2c1
-                  0x0068b4                  _IsStopI2c1
-                  0x006ae4                  _LEDs_Led1_blink
-                  0x006adc                  _LEDs_Led1_init
-                  0x006b04                  _LEDs_Led1_poll
-                  0x006b6a                  _LEDs_Led2_blink
-                  0x006b62                  _LEDs_Led2_init
-                  0x006b8a                  _LEDs_Led2_poll
-                  0x006a5e                  _LEDs_Led3_blink
-                  0x006a28                  _LEDs_Led3_init
-                  0x006a7e                  _LEDs_Led3_poll
-                  0x006a30                  _LEDs_Led3_state
-                  0x0060ec                  _LoRaWAN_init
-                  0x006894                  _OverflowReset_I2C1
-                  0x0061cc                  _Poll_LoRaWAN
-                  0x005348                  _Poll_loraE5
-                  0x006914                  _Read_I2C1
-                  0x0068e4                  _Start_I2C1
-                  0x0068f6                  _Stop_I2C1
-                  0x005ed6                  _UART1_IN_count
-                  0x005ecc                  _UART1_IN_pop
-                  0x005ea8                  _UART1_OFF
-                  0x005eb6                  _UART1_ON
-                  0x005eec                  _UART1_OUT_count
-                  0x005ede                  _UART1_OUT_push
-                  0x005d90                  _UART1_bd
-                  0x005c38                  _UART1_count
-                  0x005d3a                  _UART1_flowControl
-                  0x005e4c                  _UART1_init
-                  0x005bdc                  _UART1_init_fifo
-                  0x005d5e                  _UART1_invert
-                  0x005c02                  _UART1_is_empty
-                  0x005c1a                  _UART1_is_full
-                  0x005d08                  _UART1_peek
-                  0x005cbe                  _UART1_pop
-                  0x005c48                  _UART1_push
-                  0x005d2e                  _UART1_simplexMode
-                  0x006908                  _Write_I2C1
+                  0x005f2e                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
+                  0x005f12                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
+                  0x0068a6                  _CollisionReset_I2C1
+                  0x00695e                  _EMICBus_init
+                  0x00625e                  _I2C_Begin_Transmision
+                  0x006472                  _I2c_driver_callback_master
+                  0x006432                  _I2c_driver_callback_slave
+                  0x005650                  _ISR_UART1_CALLBACK
+                  0x006222                  _Init_I2C_Driver
+                  0x00683e                  _Init_Master_I2C1
+                  0x0068c2                  _IsCollisionDetectI2c1
+                  0x0068e6                  _IsDataOrAddressI2c1
+                  0x0068da                  _IsReceiveBufferFullI2c1
+                  0x0068f2                  _IsReceiveOverflowI2c1
+                  0x0068b6                  _IsStartI2c1
+                  0x0068ce                  _IsStopI2c1
+                  0x006afe                  _LEDs_Led1_blink
+                  0x006af6                  _LEDs_Led1_init
+                  0x006b1e                  _LEDs_Led1_poll
+                  0x006b84                  _LEDs_Led2_blink
+                  0x006b7c                  _LEDs_Led2_init
+                  0x006ba4                  _LEDs_Led2_poll
+                  0x006a78                  _LEDs_Led3_blink
+                  0x006a42                  _LEDs_Led3_init
+                  0x006a98                  _LEDs_Led3_poll
+                  0x006a4a                  _LEDs_Led3_state
+                  0x006106                  _LoRaWAN_init
+                  0x0068ae                  _OverflowReset_I2C1
+                  0x0061e6                  _Poll_LoRaWAN
+                  0x005360                  _Poll_loraE5
+                  0x00692e                  _Read_I2C1
+                  0x0068fe                  _Start_I2C1
+                  0x006910                  _Stop_I2C1
+                  0x005ef0                  _UART1_IN_count
+                  0x005ee6                  _UART1_IN_pop
+                  0x005ec2                  _UART1_OFF
+                  0x005ed0                  _UART1_ON
+                  0x005f06                  _UART1_OUT_count
+                  0x005ef8                  _UART1_OUT_push
+                  0x005daa                  _UART1_bd
+                  0x005c52                  _UART1_count
+                  0x005d54                  _UART1_flowControl
+                  0x005e66                  _UART1_init
+                  0x005bf6                  _UART1_init_fifo
+                  0x005d78                  _UART1_invert
+                  0x005c1c                  _UART1_is_empty
+                  0x005c34                  _UART1_is_full
+                  0x005d22                  _UART1_peek
+                  0x005cd8                  _UART1_pop
+                  0x005c62                  _UART1_push
+                  0x005d48                  _UART1_simplexMode
+                  0x006922                  _Write_I2C1
                   0x0003f2                  __DefaultInterrupt
                   0x0003cc                  __MI2C1Interrupt
                   0x0003a6                  __SI2C1Interrupt
@@ -725,7 +727,7 @@ External Symbols in Program Memory (by name):
                   0x00048e                  ___addsf3
                   0x00048e                  ___addsf3x
                   0x0011c6                  ___cvt_u
-                  0x006d12                  ___delay32
+                  0x006d2c                  ___delay32
                   0x003c14                  ___divdf3
                   0x004266                  ___divdi3
                   0x000658                  ___divsf3
@@ -825,39 +827,39 @@ External Symbols in Program Memory (by name):
                   0x000a98                  _atoi
                   0x000af8                  _atol
                   0x000b60                  _atoll
-                  0x006188                  _awakeLW
-                  0x005f90                  _bandLW
-                  0x006190                  _beaconLW
-                  0x006cf6                  _callback
-                  0x006094                  _channelLW
-                  0x005f50                  _classLW
-                  0x0060f4                  _connLW
+                  0x0061a2                  _awakeLW
+                  0x005faa                  _bandLW
+                  0x0061aa                  _beaconLW
+                  0x006d10                  _callback
+                  0x0060ae                  _channelLW
+                  0x005f6a                  _classLW
+                  0x00610e                  _connLW
                   0x0045b8                  _copysignl
-                  0x006228                  _countI2cStreamIn
+                  0x006242                  _countI2cStreamIn
                   0x004d92                  _default_Config
-                  0x006c22                  _eI2C
-                  0x006c0e                  _eLWcon
-                  0x006c4a                  _eLoRaWAN
-                  0x006c18                  _eLoRaWANdis
-                  0x006c42                  _etOut1
+                  0x006c3c                  _eI2C
+                  0x006c28                  _eLWcon
+                  0x006c64                  _eLoRaWAN
+                  0x006c32                  _eLoRaWANdis
+                  0x006c5c                  _etOut1
                   0x0045ec                  _fabsl
                   0x004602                  _floorl
                   0x0046fc                  _fmodl
-                  0x006214                  _getAvailable_out_count
-                  0x006230                  _getI2cStreamIn
-                  0x006cec                  _getSystemMilis
-                  0x006164                  _hex_to_ascii
-                  0x006122                  _hex_to_int
-                  0x00638a                  _i2cCloseWriteFrame
-                  0x0063cc                  _i2cOpenReadFrame
-                  0x00625e                  _ini_I2C_IN
-                  0x006288                  _ini_I2C_OUT
-                  0x0062b2                  _ini_I2C_OUT_FM
-                  0x006cbe                  _initSystem
-                  0x005334                  _loraE5_awake
+                  0x00622e                  _getAvailable_out_count
+                  0x00624a                  _getI2cStreamIn
+                  0x006d06                  _getSystemMilis
+                  0x00617e                  _hex_to_ascii
+                  0x00613c                  _hex_to_int
+                  0x0063a4                  _i2cCloseWriteFrame
+                  0x0063e6                  _i2cOpenReadFrame
+                  0x006278                  _ini_I2C_IN
+                  0x0062a2                  _ini_I2C_OUT
+                  0x0062cc                  _ini_I2C_OUT_FM
+                  0x006cd8                  _initSystem
+                  0x00534c                  _loraE5_awake
                   0x004ec2                  _loraE5_checkAnswer
                   0x004e08                  _loraE5_init
-                  0x00532a                  _loraE5_lowPower
+                  0x005342                  _loraE5_lowPower
                   0x004e28                  _loraE5_sendPacket
                   0x004e20                  _loraE5_start
                   0x004fcc                  _loraE5_updateState
@@ -866,66 +868,66 @@ External Symbols in Program Memory (by name):
                   0x004dd6                  _lw_payload_is_empty
                   0x004dba                  _lw_payload_pop
                   0x004e00                  _lw_payload_reset_read
-                  0x006ccc                  _main
+                  0x006ce6                  _main
                   0x002af2                  _memchr
                   0x002b52                  _memcmp
                   0x000bc4                  _memcpy
                   0x000bd2                  _memset
-                  0x005f20                  _modeLW
-                  0x006be8                  _onReset
-                  0x006928                  _pI2C
-                  0x0060fe                  _pLoRaWAN
-                  0x006952                  _poll_EMICBus
-                  0x006332                  _pop_I2C_IN
-                  0x006356                  _pop_I2C_OUT
-                  0x00637a                  _pop_I2C_OUT_FM
-                  0x005f80                  _powerLW
-                  0x0062ca                  _push_I2C_IN
-                  0x006302                  _push_I2C_OUT
-                  0x0060c2                  _readCredLW
-                  0x0062bc                  _reset_I2C_FRAME
+                  0x005f3a                  _modeLW
+                  0x006c02                  _onReset
+                  0x006942                  _pI2C
+                  0x006118                  _pLoRaWAN
+                  0x00696c                  _poll_EMICBus
+                  0x00634c                  _pop_I2C_IN
+                  0x006370                  _pop_I2C_OUT
+                  0x006394                  _pop_I2C_OUT_FM
+                  0x005f9a                  _powerLW
+                  0x0062e4                  _push_I2C_IN
+                  0x00631c                  _push_I2C_OUT
+                  0x0060dc                  _readCredLW
+                  0x0062d6                  _reset_I2C_FRAME
                   0x004a28                  _scalbnf
                   0x004a7c                  _scalbnl
-                  0x006006                  _schemeLW
+                  0x006020                  _schemeLW
                   0x004e8e                  _sendCommand
-                  0x0058de                  _sendDataToStream
-                  0x006238                  _setI2cStreamOut
-                  0x006c64                  _setTime1
-                  0x006180                  _sleepLW
+                  0x0058f8                  _sendDataToStream
+                  0x006252                  _setI2cStreamOut
+                  0x006c7e                  _setTime1
+                  0x00619a                  _sleepLW
                   0x000c9a                  _snprintf
                   0x002d28                  _strchr
                   0x000ca6                  _strcpy
-                  0x0067fa                  _streamCloseReadFrame
+                  0x006814                  _streamCloseReadFrame
                   0x004d8a                  _streamIn_I2C
                   0x004d86                  _streamIn_LoRaWAN
                   0x004d7a                  _streamIn_Uart1
-                  0x00589e                  _streamIn_t_ptr_to_ascii
-                  0x005680                  _streamIn_t_ptr_to_char
-                  0x005644                  _streamIn_t_ptr_to_float
-                  0x0057ea                  _streamIn_t_ptr_to_int16_t
-                  0x005826                  _streamIn_t_ptr_to_int32_t
-                  0x005862                  _streamIn_t_ptr_to_int64_t
-                  0x0057ac                  _streamIn_t_ptr_to_int8_t
-                  0x0056f8                  _streamIn_t_ptr_to_uint16_t
-                  0x005734                  _streamIn_t_ptr_to_uint32_t
-                  0x005770                  _streamIn_t_ptr_to_uint64
-                  0x0056ba                  _streamIn_t_ptr_to_uint8_t
-                  0x006796                  _streamOpenReadFrame
-                  0x006754                  _streamOpenWriteFrame
+                  0x0058b8                  _streamIn_t_ptr_to_ascii
+                  0x00569a                  _streamIn_t_ptr_to_char
+                  0x00565e                  _streamIn_t_ptr_to_float
+                  0x005804                  _streamIn_t_ptr_to_int16_t
+                  0x005840                  _streamIn_t_ptr_to_int32_t
+                  0x00587c                  _streamIn_t_ptr_to_int64_t
+                  0x0057c6                  _streamIn_t_ptr_to_int8_t
+                  0x005712                  _streamIn_t_ptr_to_uint16_t
+                  0x00574e                  _streamIn_t_ptr_to_uint32_t
+                  0x00578a                  _streamIn_t_ptr_to_uint64
+                  0x0056d4                  _streamIn_t_ptr_to_uint8_t
+                  0x0067b0                  _streamOpenReadFrame
+                  0x00676e                  _streamOpenWriteFrame
                   0x004d8e                  _streamOut_I2C
                   0x004d7e                  _streamOut_Uart1
-                  0x00671c                  _streamPop
-                  0x0066e2                  _streamPush
-                  0x006694                  _streamPushCtr
-                  0x0067e2                  _streamReOpenReadFrame
+                  0x006736                  _streamPop
+                  0x0066fc                  _streamPush
+                  0x0066ae                  _streamPushCtr
+                  0x0067fc                  _streamReOpenReadFrame
                   0x002d92                  _strlen
                   0x000f44                  _strstr
                   0x000ffc                  _strtod
                   0x000ff6                  _strtof
                   0x001002                  _strtold
-                  0x006d08                  _systemTimeInit
-                  0x006c80                  _timer1_Poll
-                  0x006d2e                  _timer4_init
+                  0x006d22                  _systemTimeInit
+                  0x006c9a                  _timer1_Poll
+                  0x006d48                  _timer4_init
                   0x002dc2                  _tolower
                   0x002dd0                  _toupper
                   0x002dde                  _vfprintf
@@ -2399,8 +2401,8 @@ __c30_signature
 
 __xc_reference_data
 
-.nbss               0x0800         0x48
- .nbss              0x0800         0x20 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+.nbss               0x0800         0x4a
+ .nbss              0x0800         0x22 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
                     0x0800                  _PAYLOAD_LENGHT_MSG
                     0x0804                  _lorawan_receive_payload
                     0x0806                  _lw_error
@@ -2410,83 +2412,84 @@ __xc_reference_data
                     0x0810                  _lw_poll_timeout
                     0x0814                  _lw_timeout
                     0x0815                  _join_in_progress
- .nbss              0x0820          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
- .nbss              0x082a          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
- .nbss              0x0834          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
- .nbss              0x083e          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
+                    0x0816                  _join_failed
+ .nbss              0x0822          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
+ .nbss              0x082c          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
+ .nbss              0x0836          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
+ .nbss              0x0840          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
 
-.ndata              0x0848          0x6
- .ndata             0x0848          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
-                    0x0848                  _lw_state
-                    0x084a                  _lw_forceState
-                    0x084c                  _lw_wait_UART_response
+.ndata              0x084a          0x6
+ .ndata             0x084a          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+                    0x084a                  _lw_state
+                    0x084c                  _lw_forceState
+                    0x084e                  _lw_wait_UART_response
 
-.nbss               0x084e         0x10
- .nbss              0x084e          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
- .nbss              0x0852          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
-                    0x0854                  _lorawan_connection_state
-                    0x0855                  _event_connected_flag
- .nbss              0x0856          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
-                    0x0856                  _i2crfi_estado
-                    0x0857                  _i2crfi_estado_rcv
-                    0x0858                  _i2crfi_indice
-                    0x0859                  _stopflag
- .nbss              0x085a          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
- .nbss              0x085c          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
-                    0x085c                  _UART1_flowControlVar
-                    0x085d                  _UART1_inverted
+.nbss               0x0850         0x10
+ .nbss              0x0850          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
+ .nbss              0x0854          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+                    0x0856                  _lorawan_connection_state
+                    0x0857                  _event_connected_flag
+ .nbss              0x0858          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+                    0x0858                  _i2crfi_estado
+                    0x0859                  _i2crfi_estado_rcv
+                    0x085a                  _i2crfi_indice
+                    0x085b                  _stopflag
+ .nbss              0x085c          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
+ .nbss              0x085e          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+                    0x085e                  _UART1_flowControlVar
+                    0x085f                  _UART1_inverted
 
-.ndata              0x085e          0x2
- .ndata             0x085e          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
-                    0x085e                  _I2C_ID
+.ndata              0x0860          0x2
+ .ndata             0x0860          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+                    0x0860                  _I2C_ID
 
-.nbss               0x0860          0x2
- .nbss              0x0860          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(errno.XX_o)
-                    0x0860                  _errno
+.nbss               0x0862          0x2
+ .nbss              0x0862          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(errno.XX_o)
+                    0x0862                  _errno
 
-.bss                0x0862        0xe74
- .bss               0x0862        0x80c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
-                    0x0862                  _UART1_IN_fifo
-                    0x0c68                  _UART1_OUT_fifo
- .bss               0x106e        0x440 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
- .bss               0x14ae        0x228 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
-                    0x14ae                  _command
-                    0x14ee                  _payload
-                    0x1520                  _devADDR
-                    0x1540                  _appsKey
-                    0x15c0                  _nwsKey
-                    0x1640                  _lwConfig
-                    0x1656                  _lw_dataOutBuffer
+.bss                0x0864        0xe74
+ .bss               0x0864        0x80c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+                    0x0864                  _UART1_IN_fifo
+                    0x0c6a                  _UART1_OUT_fifo
+ .bss               0x1070        0x440 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+ .bss               0x14b0        0x228 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+                    0x14b0                  _command
+                    0x14f0                  _payload
+                    0x1522                  _devADDR
+                    0x1542                  _appsKey
+                    0x15c2                  _nwsKey
+                    0x1642                  _lwConfig
+                    0x1658                  _lw_dataOutBuffer
 
-.data               0x16d6        0x114
- .data              0x16d6        0x114 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
-                    0x16d6                  _devEUI
-                    0x16e7                  _appEUI
-                    0x1727                  _appKey
-                    0x17a8                  _modeType
-                    0x17ae                  _classType
-                    0x17b4                  _bandPlan
-                    0x17ce                  _drScheme
+.data               0x16d8        0x114
+ .data              0x16d8        0x114 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+                    0x16d8                  _devEUI
+                    0x16e9                  _appEUI
+                    0x1729                  _appKey
+                    0x17aa                  _modeType
+                    0x17b0                  _classType
+                    0x17b6                  _bandPlan
+                    0x17d0                  _drScheme
 
-.bss                0x17ea         0x80
- .bss               0x17ea         0x80 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+.bss                0x17ec         0x80
+ .bss               0x17ec         0x80 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
 
-.data               0x186a         0xac
- .data              0x186a         0x38 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
-                    0x186a                  _i2c1InStream
-                    0x1886                  _i2c1OutStream
- .data              0x18a2         0x36 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
- .data              0x18d8         0x1e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
- .data              0x18f6         0x10 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_a.XX_o)
- .data              0x1906         0x10 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_fp.XX_o)
+.data               0x186c         0xac
+ .data              0x186c         0x38 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+                    0x186c                  _i2c1InStream
+                    0x1888                  _i2c1OutStream
+ .data              0x18a4         0x36 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
+ .data              0x18da         0x1e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+ .data              0x18f8         0x10 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_a.XX_o)
+ .data              0x1908         0x10 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_fp.XX_o)
 
-.bss                0x1916          0x4
- .bss               0x1916          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__errno_location.XX_o)
-                    0x1916                  ___errno_val
- .bss               0x1918          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__stdio_exit.XX_o)
-                    0x1918                  ___stderr_used
-                    0x1918                  ___stdin_used
-                    0x1918                  ___stdout_used
+.bss                0x1918          0x4
+ .bss               0x1918          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__errno_location.XX_o)
+                    0x1918                  ___errno_val
+ .bss               0x191a          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__stdio_exit.XX_o)
+                    0x191a                  ___stderr_used
+                    0x191a                  ___stdin_used
+                    0x191a                  ___stdout_used
 
 .ivt._T4Interrupt
                   0x00004a          0x2
@@ -2532,8 +2535,8 @@ __xc_reference_data
                     0xcd8a                  _streamIn_I2C
                     0xcd8e                  _streamOut_I2C
 
-.text             0x004d92       0x1736
- .text            0x004d92        0x8b2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
+.text             0x004d92       0x1750
+ .text            0x004d92        0x8cc /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/lora_e5.o
                   0x004d92                  _default_Config
                   0x004dba                  _lw_payload_pop
                   0x004dd6                  _lw_payload_is_empty
@@ -2546,147 +2549,147 @@ __xc_reference_data
                   0x004e8e                  _sendCommand
                   0x004ec2                  _loraE5_checkAnswer
                   0x004fcc                  _loraE5_updateState
-                  0x00532a                  _loraE5_lowPower
-                  0x005334                  _loraE5_awake
-                  0x005348                  _Poll_loraE5
-                  0x005636                  _ISR_UART1_CALLBACK
- .text            0x005644        0x598 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o
-                  0x005644                  _streamIn_t_ptr_to_float
-                  0x005680                  _streamIn_t_ptr_to_char
-                  0x0056ba                  _streamIn_t_ptr_to_uint8_t
-                  0x0056f8                  _streamIn_t_ptr_to_uint16_t
-                  0x005734                  _streamIn_t_ptr_to_uint32_t
-                  0x005770                  _streamIn_t_ptr_to_uint64
-                  0x0057ac                  _streamIn_t_ptr_to_int8_t
-                  0x0057ea                  _streamIn_t_ptr_to_int16_t
-                  0x005826                  _streamIn_t_ptr_to_int32_t
-                  0x005862                  _streamIn_t_ptr_to_int64_t
-                  0x00589e                  _streamIn_t_ptr_to_ascii
-                  0x0058de                  _sendDataToStream
- .text            0x005bdc        0x31c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
-                  0x005bdc                  _UART1_init_fifo
-                  0x005c02                  _UART1_is_empty
-                  0x005c1a                  _UART1_is_full
-                  0x005c38                  _UART1_count
-                  0x005c48                  _UART1_push
-                  0x005cbe                  _UART1_pop
-                  0x005d08                  _UART1_peek
-                  0x005d2e                  _UART1_simplexMode
-                  0x005d3a                  _UART1_flowControl
-                  0x005d5e                  _UART1_invert
-                  0x005d90                  _UART1_bd
-                  0x005e4c                  _UART1_init
-                  0x005ea8                  _UART1_OFF
-                  0x005eb6                  _UART1_ON
-                  0x005ecc                  _UART1_IN_pop
-                  0x005ed6                  _UART1_IN_count
-                  0x005ede                  _UART1_OUT_push
-                  0x005eec                  _UART1_OUT_count
- .text            0x005ef8        0x310 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
-                  0x005ef8                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
-                  0x005f14                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
-                  0x005f20                  _modeLW
-                  0x005f50                  _classLW
-                  0x005f80                  _powerLW
-                  0x005f90                  _bandLW
-                  0x006006                  _schemeLW
-                  0x006094                  _channelLW
-                  0x0060c2                  _readCredLW
-                  0x0060ec                  _LoRaWAN_init
-                  0x0060f4                  _connLW
-                  0x0060fe                  _pLoRaWAN
-                  0x006122                  _hex_to_int
-                  0x006164                  _hex_to_ascii
-                  0x006180                  _sleepLW
-                  0x006188                  _awakeLW
-                  0x006190                  _beaconLW
-                  0x0061cc                  _Poll_LoRaWAN
- .text            0x006208        0x2c0 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
-                  0x006208                  _Init_I2C_Driver
-                  0x006214                  _getAvailable_out_count
-                  0x006228                  _countI2cStreamIn
-                  0x006230                  _getI2cStreamIn
-                  0x006238                  _setI2cStreamOut
-                  0x006244                  _I2C_Begin_Transmision
-                  0x00625e                  _ini_I2C_IN
-                  0x006288                  _ini_I2C_OUT
-                  0x0062b2                  _ini_I2C_OUT_FM
-                  0x0062bc                  _reset_I2C_FRAME
-                  0x0062ca                  _push_I2C_IN
-                  0x006302                  _push_I2C_OUT
-                  0x006332                  _pop_I2C_IN
-                  0x006356                  _pop_I2C_OUT
-                  0x00637a                  _pop_I2C_OUT_FM
-                  0x00638a                  _i2cCloseWriteFrame
-                  0x0063cc                  _i2cOpenReadFrame
-                  0x006418                  _I2c_driver_callback_slave
-                  0x006458                  _I2c_driver_callback_master
+                  0x005342                  _loraE5_lowPower
+                  0x00534c                  _loraE5_awake
+                  0x005360                  _Poll_loraE5
+                  0x005650                  _ISR_UART1_CALLBACK
+ .text            0x00565e        0x598 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/streamIn.o
+                  0x00565e                  _streamIn_t_ptr_to_float
+                  0x00569a                  _streamIn_t_ptr_to_char
+                  0x0056d4                  _streamIn_t_ptr_to_uint8_t
+                  0x005712                  _streamIn_t_ptr_to_uint16_t
+                  0x00574e                  _streamIn_t_ptr_to_uint32_t
+                  0x00578a                  _streamIn_t_ptr_to_uint64
+                  0x0057c6                  _streamIn_t_ptr_to_int8_t
+                  0x005804                  _streamIn_t_ptr_to_int16_t
+                  0x005840                  _streamIn_t_ptr_to_int32_t
+                  0x00587c                  _streamIn_t_ptr_to_int64_t
+                  0x0058b8                  _streamIn_t_ptr_to_ascii
+                  0x0058f8                  _sendDataToStream
+ .text            0x005bf6        0x31c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/UART1.o
+                  0x005bf6                  _UART1_init_fifo
+                  0x005c1c                  _UART1_is_empty
+                  0x005c34                  _UART1_is_full
+                  0x005c52                  _UART1_count
+                  0x005c62                  _UART1_push
+                  0x005cd8                  _UART1_pop
+                  0x005d22                  _UART1_peek
+                  0x005d48                  _UART1_simplexMode
+                  0x005d54                  _UART1_flowControl
+                  0x005d78                  _UART1_invert
+                  0x005daa                  _UART1_bd
+                  0x005e66                  _UART1_init
+                  0x005ec2                  _UART1_OFF
+                  0x005ed0                  _UART1_ON
+                  0x005ee6                  _UART1_IN_pop
+                  0x005ef0                  _UART1_IN_count
+                  0x005ef8                  _UART1_OUT_push
+                  0x005f06                  _UART1_OUT_count
+ .text            0x005f12        0x310 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o
+                  0x005f12                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_put
+                  0x005f2e                  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/LoraWan_api.o:_lw_buffer_available
+                  0x005f3a                  _modeLW
+                  0x005f6a                  _classLW
+                  0x005f9a                  _powerLW
+                  0x005faa                  _bandLW
+                  0x006020                  _schemeLW
+                  0x0060ae                  _channelLW
+                  0x0060dc                  _readCredLW
+                  0x006106                  _LoRaWAN_init
+                  0x00610e                  _connLW
+                  0x006118                  _pLoRaWAN
+                  0x00613c                  _hex_to_int
+                  0x00617e                  _hex_to_ascii
+                  0x00619a                  _sleepLW
+                  0x0061a2                  _awakeLW
+                  0x0061aa                  _beaconLW
+                  0x0061e6                  _Poll_LoRaWAN
+ .text            0x006222        0x2c0 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1_driver.o
+                  0x006222                  _Init_I2C_Driver
+                  0x00622e                  _getAvailable_out_count
+                  0x006242                  _countI2cStreamIn
+                  0x00624a                  _getI2cStreamIn
+                  0x006252                  _setI2cStreamOut
+                  0x00625e                  _I2C_Begin_Transmision
+                  0x006278                  _ini_I2C_IN
+                  0x0062a2                  _ini_I2C_OUT
+                  0x0062cc                  _ini_I2C_OUT_FM
+                  0x0062d6                  _reset_I2C_FRAME
+                  0x0062e4                  _push_I2C_IN
+                  0x00631c                  _push_I2C_OUT
+                  0x00634c                  _pop_I2C_IN
+                  0x006370                  _pop_I2C_OUT
+                  0x006394                  _pop_I2C_OUT_FM
+                  0x0063a4                  _i2cCloseWriteFrame
+                  0x0063e6                  _i2cOpenReadFrame
+                  0x006432                  _I2c_driver_callback_slave
+                  0x006472                  _I2c_driver_callback_master
 
-.dinit            0x0064c8        0x1cc
- .dinit           0x0064c8        0x1cc data_init
+.dinit            0x0064e2        0x1cc
+ .dinit           0x0064e2        0x1cc data_init
 
-.text             0x006694        0x67e
- .text            0x006694        0x190 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o
-                  0x006694                  _streamPushCtr
-                  0x0066e2                  _streamPush
-                  0x00671c                  _streamPop
-                  0x006754                  _streamOpenWriteFrame
-                  0x006796                  _streamOpenReadFrame
-                  0x0067e2                  _streamReOpenReadFrame
-                  0x0067fa                  _streamCloseReadFrame
- .text            0x006824        0x104 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
-                  0x006824                  _Init_Master_I2C1
-                  0x00688c                  _CollisionReset_I2C1
-                  0x006894                  _OverflowReset_I2C1
-                  0x00689c                  _IsStartI2c1
-                  0x0068a8                  _IsCollisionDetectI2c1
-                  0x0068b4                  _IsStopI2c1
-                  0x0068c0                  _IsReceiveBufferFullI2c1
-                  0x0068cc                  _IsDataOrAddressI2c1
-                  0x0068d8                  _IsReceiveOverflowI2c1
-                  0x0068e4                  _Start_I2C1
-                  0x0068f6                  _Stop_I2C1
-                  0x006908                  _Write_I2C1
-                  0x006914                  _Read_I2C1
- .text            0x006928        0x100 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o
-                  0x006928                  _pI2C
-                  0x006944                  _EMICBus_init
-                  0x006952                  _poll_EMICBus
- .text            0x006a28         0xb4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
-                  0x006a28                  _LEDs_Led3_init
-                  0x006a30                  _LEDs_Led3_state
-                  0x006a5e                  _LEDs_Led3_blink
-                  0x006a7e                  _LEDs_Led3_poll
- .text            0x006adc         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
-                  0x006adc                  _LEDs_Led1_init
-                  0x006ae4                  _LEDs_Led1_blink
-                  0x006b04                  _LEDs_Led1_poll
- .text            0x006b62         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
-                  0x006b62                  _LEDs_Led2_init
-                  0x006b6a                  _LEDs_Led2_blink
-                  0x006b8a                  _LEDs_Led2_poll
- .text            0x006be8         0x7c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
-                  0x006be8                  _onReset
-                  0x006c0e                  _eLWcon
-                  0x006c18                  _eLoRaWANdis
-                  0x006c22                  _eI2C
-                  0x006c42                  _etOut1
-                  0x006c4a                  _eLoRaWAN
- .text            0x006c64         0x5a /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
-                  0x006c64                  _setTime1
-                  0x006c80                  _timer1_Poll
- .text            0x006cbe         0x2e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
-                  0x006cbe                  _initSystem
-                  0x006ccc                  _main
- .text            0x006cec         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
-                  0x006cec                  _getSystemMilis
-                  0x006cf6                  _callback
-                  0x006d08                  _systemTimeInit
+.text             0x0066ae        0x67e
+ .text            0x0066ae        0x190 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/stream.o
+                  0x0066ae                  _streamPushCtr
+                  0x0066fc                  _streamPush
+                  0x006736                  _streamPop
+                  0x00676e                  _streamOpenWriteFrame
+                  0x0067b0                  _streamOpenReadFrame
+                  0x0067fc                  _streamReOpenReadFrame
+                  0x006814                  _streamCloseReadFrame
+ .text            0x00683e        0x104 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/I2C1.o
+                  0x00683e                  _Init_Master_I2C1
+                  0x0068a6                  _CollisionReset_I2C1
+                  0x0068ae                  _OverflowReset_I2C1
+                  0x0068b6                  _IsStartI2c1
+                  0x0068c2                  _IsCollisionDetectI2c1
+                  0x0068ce                  _IsStopI2c1
+                  0x0068da                  _IsReceiveBufferFullI2c1
+                  0x0068e6                  _IsDataOrAddressI2c1
+                  0x0068f2                  _IsReceiveOverflowI2c1
+                  0x0068fe                  _Start_I2C1
+                  0x006910                  _Stop_I2C1
+                  0x006922                  _Write_I2C1
+                  0x00692e                  _Read_I2C1
+ .text            0x006942        0x100 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/EMICBus.o
+                  0x006942                  _pI2C
+                  0x00695e                  _EMICBus_init
+                  0x00696c                  _poll_EMICBus
+ .text            0x006a42         0xb4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led3.o
+                  0x006a42                  _LEDs_Led3_init
+                  0x006a4a                  _LEDs_Led3_state
+                  0x006a78                  _LEDs_Led3_blink
+                  0x006a98                  _LEDs_Led3_poll
+ .text            0x006af6         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led1.o
+                  0x006af6                  _LEDs_Led1_init
+                  0x006afe                  _LEDs_Led1_blink
+                  0x006b1e                  _LEDs_Led1_poll
+ .text            0x006b7c         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/led_Led2.o
+                  0x006b7c                  _LEDs_Led2_init
+                  0x006b84                  _LEDs_Led2_blink
+                  0x006ba4                  _LEDs_Led2_poll
+ .text            0x006c02         0x7c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/userFncFile.o
+                  0x006c02                  _onReset
+                  0x006c28                  _eLWcon
+                  0x006c32                  _eLoRaWANdis
+                  0x006c3c                  _eI2C
+                  0x006c5c                  _etOut1
+                  0x006c64                  _eLoRaWAN
+ .text            0x006c7e         0x5a /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer_api1.o
+                  0x006c7e                  _setTime1
+                  0x006c9a                  _timer1_Poll
+ .text            0x006cd8         0x2e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/main.o
+                  0x006cd8                  _initSystem
+                  0x006ce6                  _main
+ .text            0x006d06         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/systemTimer.o
+                  0x006d06                  _getSystemMilis
+                  0x006d10                  _callback
+                  0x006d22                  _systemTimeInit
 
-.init.delay32     0x006d12         0x1c
- .init.delay32    0x006d12         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(delay32.Meo)
-                  0x006d12                  ___delay32
+.init.delay32     0x006d2c         0x1c
+ .init.delay32    0x006d2c         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(delay32.Meo)
+                  0x006d2c                  ___delay32
 
-.text             0x006d2e         0x16
- .text            0x006d2e         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
-                  0x006d2e                  _timer4_init
+.text             0x006d48         0x16
+ .text            0x006d48         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_LoRaWan_3/build/default/production/timer.o
+                  0x006d48                  _timer4_init
