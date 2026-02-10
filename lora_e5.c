@@ -11,7 +11,8 @@
 
 char command[64];
 uint8_t payload[50];
-uint16_t PAYLOAD_LENGHT_MSG = 0; 
+uint16_t PAYLOAD_LENGHT_MSG = 0;
+static uint16_t payload_read_idx = 0; 
 
 // TEST ONLY
 char devEUI[17]={"2CF7F120420031D2"};
@@ -64,6 +65,32 @@ void default_Config(void)
     lwConfig.typeChannel = LW_NUM;
     strcpy(lwConfig.numChannel,"8-15");
     lwConfig.powerTx = 20;               // RF output power +20dBm
+}
+
+char lw_payload_pop(void)
+{
+    if (payload_read_idx < PAYLOAD_LENGHT_MSG)
+    {
+        return payload[payload_read_idx++];
+    }
+    return 0;
+}
+
+uint8_t lw_payload_is_empty(void)
+{
+    return (payload_read_idx >= PAYLOAD_LENGHT_MSG);
+}
+
+uint16_t lw_payload_count(void)
+{
+    if (payload_read_idx >= PAYLOAD_LENGHT_MSG)
+        return 0;
+    return PAYLOAD_LENGHT_MSG - payload_read_idx;
+}
+
+void lw_payload_reset_read(void)
+{
+    payload_read_idx = 0;
 }
 
 void loraE5_init(void)

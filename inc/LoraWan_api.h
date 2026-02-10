@@ -5,6 +5,7 @@
 /*==================[inclusions]=============================================*/
 #include <stdarg.h>
 #include <stdint.h>
+#include "inc/streamIn.h"
 
 /*==================[macros]=================================================*/
 
@@ -14,6 +15,7 @@
 
 /*==================[external data declaration]==============================*/
 
+extern const streamIn_t streamIn_LoRaWAN;
 
 /*==================[external functions declaration]=========================*/
 

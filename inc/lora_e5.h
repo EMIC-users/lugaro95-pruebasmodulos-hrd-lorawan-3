@@ -204,6 +204,14 @@ void sendCommand(const char *str,uint32_t);
 
 void loraE5_sendPacket(char *buffer, uint16_t len);
 
+char lw_payload_pop(void);
+
+uint8_t lw_payload_is_empty(void);
+
+uint16_t lw_payload_count(void);
+
+void lw_payload_reset_read(void);
+
 void ISR_UART1_CALLBACK(char d);
 
 /** @} doxygen end group definition */

@@ -48,6 +48,12 @@ static const streamOut_t streamOut_LoRaWAN_buffer = {
     lw_buffer_available
 };
 
+const streamIn_t streamIn_LoRaWAN = {
+    lw_payload_pop,
+    lw_payload_is_empty,
+    lw_payload_count
+};
+
 /*==================[public functions definition]============================*/
 
 void modeLW(uint16_t mode)
@@ -311,8 +317,8 @@ void Poll_LoRaWAN(void)
         if(lorawan_receive_payload == 1 && event_connected_flag == 1)
         {
             lorawan_receive_payload = 0;
-            //event_connected_flag == 0;  // TODO: esta linea tiene un error y creo que hay que sacarla porque no le encuentro sentido
-            eLoRaWAN();
+            lw_payload_reset_read();
+            eLoRaWAN(&streamIn_LoRaWAN);
         }
     }
     else
