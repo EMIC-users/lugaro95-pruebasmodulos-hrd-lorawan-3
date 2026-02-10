@@ -39,16 +39,16 @@ void eI2C(char* tag, const streamIn_t* const msg)
 }
 
 
-void eLoRaWAN()
-{
-    pI2C("HOLA\tMUNDO");
-    LEDs_Led2_blink(125, 250, 1);
-}
-
-
 void etOut1()
 {
     connLW();
+}
+
+
+void eLoRaWAN(streamIn_t* stream)
+{
+    pI2C("TAG\t%d", stream);
+    LEDs_Led2_blink(125, 250, 1);
 }
 
 

@@ -16,8 +16,8 @@ void onReset();
 void eLWcon();
 void eLoRaWANdis();
 void eI2C(char* tag, const streamIn_t* const msg);
-void eLoRaWAN();
 void etOut1();
+void eLoRaWAN(streamIn_t* stream);
 
 #endif /* USERFNCFILE_H */
 
